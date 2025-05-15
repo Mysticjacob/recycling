@@ -1,0 +1,56 @@
+
+
+.sales-records-container {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .error-text {
+    color: red;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .loading-text {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .sales-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  

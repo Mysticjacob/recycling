@@ -1,0 +1,43 @@
+/* Navigation Buttons */
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.nav-buttons button {
+  padding: 10px 15px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #0073e6;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-buttons button:hover {
+  background-color: #005bb5;
+}
+
+/* Call-to-Action */
+.cta {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.buy-btn {
+  padding: 12px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #28a745;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.buy-btn:hover {
+  background-color: #218838;
+}

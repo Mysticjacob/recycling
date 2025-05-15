@@ -1,0 +1,23 @@
+/* Admin Dashboard */
+.admin-dashboard {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Logout Button */
+.logout-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #dc3545;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.logout-btn:hover {
+  background-color: #c82333;
+}
